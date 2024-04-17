@@ -1,0 +1,25 @@
+{
+  "name": "monto-code-test",
+  "version": "1.0.0",
+  "description": "Scraping code test.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahim-netto/monto-code-test.git"
+  },
+  "author": "Ibrahim Netto <ibrahim@montopay.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ibrahim-netto/monto-code-test/issues"
+  },
+  "homepage": "https://github.com/ibrahim-netto/monto-code-test#readme",
+  "dependencies": {
+    "delay": "^6.0.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^22.6.5"
+  }
+}
