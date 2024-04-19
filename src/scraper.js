@@ -14,7 +14,6 @@ export class CrexiScraper {
         if (!rootUrl) {
             throw new Error("Missing root Url.");
         }
-
         this.#rootUrl = rootUrl;
     }
 
@@ -26,7 +25,6 @@ export class CrexiScraper {
      */
     async scrape(query) {
         console.info(`${this.#name} started.`);
-
         /*
             @TODO implementation using the utility functions.
          */

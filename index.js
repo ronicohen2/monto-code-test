@@ -6,7 +6,7 @@ import { CrexiScraper } from './src/scraper.js';
     const scraper = new CrexiScraper(mainUrl);
 
     const properties = await scraper.scrape(query);
-    console.log(properties.length);
+    console.log(properties);
 
     return properties;
 })();

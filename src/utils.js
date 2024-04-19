@@ -1,5 +1,3 @@
-import { LOCATIONS } from './constants.js';
-
 /**
  * Search for locations.
  *
@@ -8,8 +6,7 @@ import { LOCATIONS } from './constants.js';
  * @return {Object[]} A list of locations.
  */
 export async function searchLocations(rootUrl, query) {
-    // @TODO implementation. For this exercise, the return value is hardcoded.
-    return LOCATIONS;
+    // @TODO implementation.
 }
 
 /**
