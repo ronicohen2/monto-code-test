@@ -32,7 +32,6 @@ export async function mapProperty(property) {
     const mappedProperty = {
         id: "",
         name: "",
-        description: "",
         status: "",
         location: ""
     };
