@@ -1,22 +1,11 @@
 /**
- * Search for locations.
+ * Search for properties by query.
  *
  * @param {string} rootUrl - Root URL.
  * @param {string} query - Location search query.
- * @return {Object[]} A list of locations.
- */
-export async function searchLocations(rootUrl, query) {
-    // @TODO implementation.
-}
-
-/**
- * Search for properties by location.
- *
- * @param {string} rootUrl - Root URL.
- * @param {Object} location - A location.
  * @return {Object[]} A list of properties.
  */
-export async function searchProperties(rootUrl, location) {
+export async function searchProperties(rootUrl, query) {
     // @TODO implementation.
 }
 

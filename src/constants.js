@@ -1,7 +1,5 @@
 export const TIME_BETWEEN_REQUESTS = 1000;
 
-export const ROOT_URL = "https://www.crexi.com"
-
 /** Mockup response for a location search. */
 export const LOCATIONS = [{
     "location": { "latitude": 47.6061389, "longitude": -122.3328481 },

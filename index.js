@@ -1,9 +1,9 @@
 import { CrexiScraper } from './src/scraper.js';
 
 (async () => {
-    const mainUrl = "";
+    const rootUrl = "";
     const query = "Seattle";
-    const scraper = new CrexiScraper(mainUrl);
+    const scraper = new CrexiScraper(rootUrl);
 
     const properties = await scraper.scrape(query);
     console.log(properties);
