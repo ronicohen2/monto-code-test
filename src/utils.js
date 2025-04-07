@@ -15,7 +15,6 @@ export async function searchProperties(rootUrl, query) {
  * @type {object}
  * @property {string} id - A property ID.
  * @property {string} name - A property name.
- * @property {string} description - A property description.
  * @property {string} status - A property status.
  * @property {string} location - A property location.
  */
