@@ -39,12 +39,6 @@ export async function searchProperties(rootUrl, query) {
                 productHandle
             );
         } catch (error) {}
-        // try {
-        //    status = await page.evaluate(
-        //        (el) => el.querySelector(".a-price .a-offscreen")?.textContent,
-        //        productHandle
-        //    );
-        // } catch (error) {}
         try {
             location = await page.evaluate(
                 (el) => el.querySelector("h4")?.textContent,
@@ -52,11 +46,9 @@ export async function searchProperties(rootUrl, query) {
             );
         } catch (error) {}
         if (name !== null) {
-            properties.push({id,name,status,location});
+            properties.push({id,name,location});
         }
     }
-   // console.log(properties);
-    //console.log(properties.length);
     await browser.close(); //close the browser
     return properties;
  }
@@ -88,5 +80,3 @@ export async function mapProperty(property) {
 
     return mappedProperty;
 }
-
-//searchProperties("https://www.crexi.com", "Seattle");

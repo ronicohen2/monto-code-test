@@ -1,2 +1,3 @@
-2025/04/10-19:41:41.291 332074 Creating DB /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/Site Characteristics Database since it was missing.
-2025/04/10-19:41:41.299 332074 Reusing MANIFEST /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/Site Characteristics Database/MANIFEST-000001
+2025/04/10-19:52:51.925 3343f9 Reusing MANIFEST /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/Site Characteristics Database/MANIFEST-000001
+2025/04/10-19:52:51.925 3343f9 Recovering log #3
+2025/04/10-19:52:51.925 3343f9 Reusing old log /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/Site Characteristics Database/000003.log 

@@ -1,2 +1,3 @@
-2025/04/10-19:41:47.578 332072 Creating DB /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/GCM Store since it was missing.
-2025/04/10-19:41:47.584 332072 Reusing MANIFEST /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/GCM Store/MANIFEST-000001
+2025/04/10-19:52:57.220 3343e8 Reusing MANIFEST /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/GCM Store/MANIFEST-000001
+2025/04/10-19:52:57.220 3343e8 Recovering log #3
+2025/04/10-19:52:57.220 3343e8 Reusing old log /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/GCM Store/000003.log 

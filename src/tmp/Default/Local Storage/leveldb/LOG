@@ -1,0 +1,6 @@
+2025/04/10-19:39:47.688 3318f7 Reusing MANIFEST /Users/rwnykhn/Documents/GitHub/monto-code-test/src/tmp/Default/Local Storage/leveldb/MANIFEST-000001
+2025/04/10-19:39:47.690 3318f7 Recovering log #22
+2025/04/10-19:39:47.690 3318f7 Reusing old log /Users/rwnykhn/Documents/GitHub/monto-code-test/src/tmp/Default/Local Storage/leveldb/000022.log 
+2025/04/10-19:39:56.853 3318f7 Level-0 table #26: started
+2025/04/10-19:39:56.858 3318f7 Level-0 table #26: 32812 bytes OK
+2025/04/10-19:39:56.862 3318f7 Delete type=0 #22

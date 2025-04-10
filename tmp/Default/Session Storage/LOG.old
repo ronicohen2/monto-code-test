@@ -1,2 +1,6 @@
-2025/04/10-19:41:41.415 3320e6 Creating DB /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/Session Storage since it was missing.
-2025/04/10-19:41:41.418 3320e6 Reusing MANIFEST /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/Session Storage/MANIFEST-000001
+2025/04/10-19:52:52.039 33444e Reusing MANIFEST /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/Session Storage/MANIFEST-000001
+2025/04/10-19:52:52.039 33444e Recovering log #3
+2025/04/10-19:52:52.039 33444e Reusing old log /Users/rwnykhn/Documents/GitHub/monto-code-test/tmp/Default/Session Storage/000003.log 
+2025/04/10-19:52:59.340 334450 Level-0 table #5: started
+2025/04/10-19:52:59.348 334450 Level-0 table #5: 20979 bytes OK
+2025/04/10-19:52:59.351 334450 Delete type=0 #3
