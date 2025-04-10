@@ -1,4 +1,4 @@
-import { mapProperty } from './utils.js';
+import {mapProperty, searchProperties} from './utils.js';
 
 /** Class representing a Crexi scraper. */
 export class CrexiScraper {
@@ -25,11 +25,7 @@ export class CrexiScraper {
      */
     async scrape(query) {
         console.info(`${this.#name} started.`);
-        /*
-            @TODO implementation using the utility functions.
-         */
-        const properties = [];
-
+        const properties = await searchProperties(this.#rootUrl, query);
         console.info(`${this.#name} ended.`);
         return properties.map(property => mapProperty(property));
     }
